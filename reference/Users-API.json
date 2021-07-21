@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Users API",
-    "version": "1.0"
+    "title": "Users API updated",
+    "version": "1.0.1"
   },
   "servers": [
     {

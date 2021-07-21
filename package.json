@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "swagger-ui-express": "^4.1.6"
-  }
+  },
+  "name": "apidays-demo",
+  "description": "used for demoing during apidays talk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "syncSwaggerHub": "swaggerhub api:update devPaul1983/users-api/1.0 --file reference/Users-API.json",
+    "gitPush": "swaggerhub api:update devPaul1983/users-api/1.0 --file reference/Users-API.json && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulyk1983/apidays-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulyk1983/apidays-demo/issues"
+  },
+  "homepage": "https://github.com/paulyk1983/apidays-demo#readme"
 }
